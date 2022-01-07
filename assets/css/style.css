@@ -581,7 +581,7 @@ section {
   height: 120px;
 }
 .clients .client-logo img {
-  height: 50%;
+  height: 100%;
   filter: grayscale(100%);
   transition: 0.3s;
 }
@@ -1311,7 +1311,6 @@ section {
 }
 #footer .credits {
   float: right;
-  font-size: 13px;
   color: #0f394c;
 }
 @media (max-width: 575px) {
