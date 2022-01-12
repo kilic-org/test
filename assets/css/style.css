@@ -425,23 +425,13 @@ section {
 }
 .about .video-box {
   background: url("../img/about.jpg") center center no-repeat;
-  background-size: contain;
+  background-size: cover;
   min-height: 500px;
 }
 @media (min-width: 1200px) {
   .about .video-box {
     margin-left: 15px;
     margin-right: -15px;
-  }
-}
-@media (max-width: 991px) {
-  .about .video-box {
-    min-height: 400px;
-  }
-}
-@media (max-width: 768px) {
-  .about .video-box {
-    min-height: 300px;
   }
 }
 .about .play-btn {
