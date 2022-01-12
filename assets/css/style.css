@@ -275,9 +275,8 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100vh;
   background: url(../img/hero.jpg) no-repeat;
-  background-blend-mode: multiply;
-  background-position: center center;
   background-size: cover;
+  background-position: center top;
   background-attachment: fixed;
 }
 #hero .container {
@@ -314,21 +313,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 991px) {
   #hero {
-    height: 100vh;
+    background-position: right 20% top;
+    background-attachment: scroll;
     text-align: center;
-  }
-  #hero .hero-img img {
-    width: 50%;
   }
   #hero h2 {
     color: #000000;
   }
 }
 @media (max-width: 768px) {
-  #hero {
-    background-position: right 20% center;
-    background-attachment: scroll;
-  }
   #hero h1 {
     font-size: 42px;
     line-height: 38px;
@@ -336,10 +329,6 @@ h1, h2, h3, h4, h5, h6 {
   #hero h2 {
     font-size: 18px;
     line-height: 24px;
-    color: #000000;
-  }
-  #hero .hero-img img {
-    width: 80%;
   }
 }
 
@@ -422,17 +411,6 @@ section {
   margin-left: 85px;
   line-height: 24px;
   font-size: 14px;
-}
-.about .video-box {
-  background: url("../img/about.jpg") center center no-repeat;
-  background-size: cover;
-  min-height: 500px;
-}
-@media (min-width: 1200px) {
-  .about .video-box {
-    margin-left: 15px;
-    margin-right: -15px;
-  }
 }
 .about .play-btn {
   width: 94px;
