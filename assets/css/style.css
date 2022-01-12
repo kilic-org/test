@@ -331,7 +331,28 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 24px;
   }
 }
-
+#hero .down-arrow {
+  font-size: 80px;
+}
+#hero .down-arrow a {
+  color: #343a40;
+}
+#hero .down-arrow a:hover {
+  color: #49b5e7;
+}
+#hero .bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
