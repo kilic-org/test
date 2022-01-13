@@ -276,7 +276,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 100vh;
   background: url(../img/hero.jpg) no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: center top;
   background-attachment: fixed;
 }
 #hero .container {
@@ -313,7 +313,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 991px) {
   #hero {
-    background-position: right 20% top;
+    background-position: right 20% center;
     background-attachment: scroll;
     text-align: center;
   }
